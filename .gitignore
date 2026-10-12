@@ -7,7 +7,9 @@ __pycache__/
 .venv*/
 venv/
 .pytest_cache/
+.pytest_tmp/
 .env.*
 !.env.example
 # artifacts/*.json là bằng chứng bắt buộc của bài nộp.
 # Chỉ commit sau khi kiểm tra không có API key hoặc dữ liệu cá nhân thật.
+artifacts/.*
